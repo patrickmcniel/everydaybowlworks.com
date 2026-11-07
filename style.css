@@ -11,9 +11,8 @@
   --border-strong: #D9C9AE;
   --accent: #55443D;
   --on-accent: #FFF4EA;
-  --apricot: #E89A63;
   --sage: #6F9163;
-  --terracotta: #C46A3E;
+  --green: #567A4B;
   --shadow: 0 10px 30px rgba(47, 36, 27, 0.10);
 }
 
@@ -28,6 +27,8 @@
     --border-strong: #4E3E2F;
     --accent: #C9AE97;
     --on-accent: #1E1712;
+    --sage: #8FAF83;
+    --green: #9BBD8F;
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
   }
 }
@@ -47,7 +48,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: var(--terracotta); text-decoration: none; }
+a { color: var(--green); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .wrap {
@@ -127,7 +128,7 @@ header.site nav a:hover { color: var(--fg); text-decoration: none; }
 }
 
 .hero h1 .line { display: block; }
-.hero h1 .warm { color: var(--terracotta); }
+.hero h1 .warm { color: var(--green); }
 
 .hero p.sub {
   max-width: 640px;
